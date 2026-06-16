@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en" class="subpage">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Menu — Yaab Berbere Burgers</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/yaab.css" />
+</head>
+<body>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav solid" id="nav">
+  <div class="container">
+    <a class="nav-brand" href="Yaab Berbere Burgers.html" aria-label="Yaab — home">
+      <img src="assets/logo-full.png" alt="Yaab" />
+    </a>
+    <nav class="nav-links right">
+      <a class="nav-link active" href="Menu.html">Menu</a>
+      <a class="nav-link" href="About Us.html">About</a>
+      <a class="nav-link" href="Location.html">Location</a>
+      <a class="btn btn-primary nav-cta" href="Location.html">Contact</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===================== MOBILE MENU ===================== -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="close" id="closeMenu" aria-label="Close menu">&times;</button>
+  <img class="mm-logo" src="assets/logo-full.png" alt="Yaab" />
+  <a href="Yaab Berbere Burgers.html" data-mm>Home</a>
+  <a href="Menu.html" data-mm>Menu</a>
+  <a href="About Us.html" data-mm>About</a>
+  <a href="Location.html" data-mm>Location</a>
+  <a href="Location.html" data-mm>Contact</a>
+</div>
+
+<main>
+<!-- ===================== SIGNATURE ===================== -->
+<section class="section signature" id="signature" data-screen-label="Signature Burger">
+  <div class="container">
+    <div class="sig-grid">
+      <div class="sig-media reveal">
+        <div class="frame"><img src="assets/berbere-burger.png" alt="The Berbere Burger" /></div>
+        <div class="badge"><img src="assets/logo-full.png" alt="Yaab Berbere Burgers" /></div>
+      </div>
+      <div class="sig-copy">
+        <span class="eyebrow reveal">The one to start with</span>
+        <h2 class="section-title reveal" data-delay="1">The <em>Berbere</em> Burger</h2>
+        <p class="lead reveal" data-delay="2">Our signature burger combines bold berbere spices, premium ingredients and unforgettable flavour in every bite.</p>
+        <ul class="sig-list reveal" data-delay="3">
+          <li>Hand-spiced berbere patty, seared to order</li>
+          <li>Warm awaze aioli and pickled onion</li>
+          <li>Toasted brioche, fresh slaw, house heat</li>
+        </ul>
+        <a class="btn btn-primary reveal" data-delay="3" href="#menu">View Full Menu <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== MENU ===================== -->
+<section class="section" id="menu" data-screen-label="Menu">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow center">The menu</span>
+      <h2 class="section-title">Crafted with <em>spice</em> &amp; care</h2>
+    </div>
+
+    <div class="menu-tabs reveal" data-delay="1">
+      <button class="menu-tab active" data-tab="combos">Combos</button>
+      <button class="menu-tab" data-tab="sharing">Sharing</button>
+      <button class="menu-tab" data-tab="burgers">Burgers &amp; Tenders</button>
+      <button class="menu-tab" data-tab="sides">Sides &amp; Dips</button>
+      <button class="menu-tab" data-tab="drinks">Drinks</button>
+    </div>
+
+    <!-- COMBOS -->
+    <div class="menu-panel active" data-panel="combos">
+      <p class="menu-note" style="margin:0 0 40px;">Every combo includes classic fries, Yaab dip &amp; a drink.</p>
+      <div class="menu-grid">
+        <article class="dish reveal">
+          <div class="dish-media"><span class="tag">Signature</span><img src="assets/food-berbere-meal.png" alt="Berbere Burger Meal" /></div>
+          <div class="dish-body">
+            <div class="dish-row"><span class="dish-name">Berbere Burger Meal</span><span class="dish-price">£9.99</span></div>
+            <p class="dish-desc">Buttermilk-marinated, hand-breaded chicken tender coated in our signature berbere sauce, served with pickles in a soft toasted brioche bun.</p>
+          </div>
+        </article>
+        <article class="dish reveal" data-delay="1">
+          <div class="dish-media"><img src="assets/food-tenders-meal.png" alt="Berbere Tenders Meal" /></div>
+          <div class="dish-body">
+            <div class="dish-row"><span class="dish-name">Berbere Tenders Meal</span><span class="dish-price">£8.99</span></div>
+            <p class="dish-desc">Two buttermilk-marinated, berbere dipped chicken tenders. Served with classic fries, pickles and our Yaab dip.</p>
+          </div>
+        </article>
+        <article class="dish reveal" data-delay="2">
+          <div class="dish-media"><img src="assets/food-classic-tenders.png" alt="Classic Burger Meal" /></div>
+          <div class="dish-body">
+            <div class="dish-row"><span class="dish-name">Classic Burger Meal</span><span class="dish-price">£9.99</span></div>
+            <p class="dish-desc">Buttermilk-marinated, hand-breaded chicken tender served in a soft brioche bun, topped with our house slaw, Yaab mayo and pickles. Served with classic fries, Yaab dip and a drink.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- SHARING -->
+    <div class="menu-panel" data-panel="sharing">
+      <p class="menu-note" style="margin:0 0 40px;">All sharing meals include burgers, crispy fries, dipping sauces and drinks. Halal.</p>
+      <div class="menu-grid">
+        <article class="dish reveal">
+          <div class="dish-media"><img src="assets/sharing-for-two.png" alt="Burger Meal for Two" /></div>
+          <div class="dish-body">
+            <div class="dish-row"><span class="dish-name">Burger Meal for Two</span><span class="dish-price">£21.99</span></div>
+            <p class="dish-desc">2 burgers, fries, dips and drinks. Perfect for sharing or a satisfying meal packed with great taste and value.</p>
+          </div>
+        </article>
+        <article class="dish reveal" data-delay="1">
+          <div class="dish-media"><img src="assets/sharing-for-four.png" alt="Burger Meal for Four" /></div>
+          <div class="dish-body">
+            <div class="dish-row"><span class="dish-name">Burger Meal for Four</span><span class="dish-price">£44.99</span></div>
+            <p class="dish-desc">4 burgers, fries, dips and drinks. Perfect for family meals or gatherings with friends.</p>
+          </div>
+        </article>
+        <article class="dish reveal" data-delay="2">
+          <div class="dish-media"><img src="assets/sharing-for-six.png" alt="Burger Meal for Six" /></div>
+          <div class="dish-body">
+            <div class="dish-row"><span class="dish-name">Burger Meal for Six</span><span class="dish-price">£64.99</span></div>
+            <p class="dish-desc">6 burgers, fries, dips and drinks. The ultimate feast for families, groups and parties.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- BURGERS & TENDERS -->
+    <div class="menu-panel" data-panel="burgers">
+      <div class="menu-grid">
+        <article class="dish reveal">
+          <div class="dish-media"><span class="tag">Signature</span><img src="assets/food-classic-meal.png" alt="Berbere Burger" /></div>
+          <div class="dish-body">
+            <div class="dish-row"><span class="dish-name">Berbere Burger</span><span class="dish-price">£8.99</span></div>
+            <p class="dish-desc">Buttermilk-marinated, hand-breaded chicken tender coated in our signature berbere sauce, served with pickles in a soft toasted brioche bun.</p>
+          </div>
+        </article>
+        <article class="dish reveal" data-delay="1">
+          <div class="dish-media"><img src="assets/food-classic-burger.png" alt="Classic Burger" /></div>
+          <div class="dish-body">
+            <div class="dish-row"><span class="dish-name">Classic Burger</span><span class="dish-price">£6.99</span></div>
+            <p class="dish-desc">Buttermilk-marinated, hand-breaded chicken tender served in a soft brioche bun, topped with our house slaw, Yaab mayo and pickles.</p>
+          </div>
+        </article>
+        <article class="dish reveal" data-delay="2">
+          <div class="dish-media"><img src="assets/food-tenders.png" alt="Berbere Tenders" /></div>
+          <div class="dish-body">
+            <div class="dish-row"><span class="dish-name">Berbere Tenders</span><span class="dish-price">£5.99</span></div>
+            <p class="dish-desc">Two buttermilk-marinated, berbere dipped chicken tenders served with pickles and a Yaab dip.</p>
+          </div>
+        </article>
+        <article class="dish reveal">
+          <div class="dish-media"><span class="ph-tag">Photo coming soon</span></div>
+          <div class="dish-body">
+            <div class="dish-row"><span class="dish-name">Classic Tenders</span><span class="dish-price">£5.99</span></div>
+            <p class="dish-desc">Two buttermilk-marinated, hand-breaded chicken tenders served with pickles and a Yaab dip.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- SIDES & DIPS -->
+    <div class="menu-panel" data-panel="sides">
+      <div class="menu-grid">
+        <article class="dish reveal">
+          <div class="dish-media"><img src="assets/food-fries.png" alt="Classic Fries" /></div>
+          <div class="dish-body">
+            <div class="dish-row"><span class="dish-name">Classic Fries</span><span class="dish-price">£2.99</span></div>
+            <p class="dish-desc">Classic fries with our special seasoning.</p>
+          </div>
+        </article>
+        <article class="dish reveal" data-delay="1">
+          <div class="dish-media"><span class="tag">Loaded</span><img src="assets/food-loaded-fries.png" alt="Loaded Berbere Fries" /></div>
+          <div class="dish-body">
+            <div class="dish-row"><span class="dish-name">Loaded Berbere Fries</span><span class="dish-price">£6.99</span></div>
+            <p class="dish-desc">Signature fries loaded with berbere chicken, pickles, Yaab slaw and our special Yaab mayo.</p>
+          </div>
+        </article>
+        <article class="dish reveal">
+          <div class="dish-media"><img src="assets/food-dip.png" alt="Yaab Dip" /></div>
+          <div class="dish-body">
+            <div class="dish-row"><span class="dish-name">Yaab Dip</span><span class="dish-price">£0.99</span></div>
+            <p class="dish-desc">Special house mayonnaise with a mild chilli kick.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- DRINKS -->
+    <div class="menu-panel" data-panel="drinks">
+      <div class="menu-grid">
+        <article class="dish reveal">
+          <div class="dish-media"><img src="assets/drink-orangina.png" alt="Orangina" /></div>
+          <div class="dish-body">
+            <div class="dish-row"><span class="dish-name">Orangina</span><span class="dish-price">£1.49</span></div>
+          </div>
+        </article>
+        <article class="dish reveal" data-delay="1">
+          <div class="dish-media"><img src="assets/drink-rio.png" alt="Rio Tropical" /></div>
+          <div class="dish-body">
+            <div class="dish-row"><span class="dish-name">Rio Tropical</span><span class="dish-price">£1.49</span></div>
+          </div>
+        </article>
+        <article class="dish reveal" data-delay="2">
+          <div class="dish-media"><img src="assets/drink-lemonade.png" alt="R White's Lemonade" /></div>
+          <div class="dish-body">
+            <div class="dish-row"><span class="dish-name">R White's Lemonade</span><span class="dish-price">£1.49</span></div>
+          </div>
+        </article>
+        <article class="dish reveal">
+          <div class="dish-media"><img src="assets/drink-rubicon.png" alt="Rubicon Mango" /></div>
+          <div class="dish-body">
+            <div class="dish-row"><span class="dish-name">Rubicon Mango</span><span class="dish-price">£1.49</span></div>
+          </div>
+        </article>
+        <article class="dish reveal" data-delay="1">
+          <div class="dish-media"><img src="assets/drink-tango.png" alt="Tango Strawberry Smash" /></div>
+          <div class="dish-body">
+            <div class="dish-row"><span class="dish-name">Tango Strawberry Smash</span><span class="dish-price">£1.49</span></div>
+          </div>
+        </article>
+        <article class="dish reveal" data-delay="2">
+          <div class="dish-media"><img src="assets/drink-ice-valley.png" alt="Ice Valley Still Water" /></div>
+          <div class="dish-body">
+            <div class="dish-row"><span class="dish-name">Ice Valley Still Water</span><span class="dish-price">£1.00</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <p class="menu-note reveal">Collection only · Whilst we take the utmost care to avoid cross-contact, we cannot guarantee that our products are allergen free. May contain traces of milk, nut, wheat, egg or soy.</p>
+  </div>
+</section>
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="assets/logo-full.png" alt="Yaab Berbere Burgers" />
+        <p>Authentic East African flavours, crafted into premium burgers.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <a href="Yaab Berbere Burgers.html">Home</a>
+          <a href="Menu.html">Menu</a>
+          <a href="About Us.html">About Us</a>
+          <a href="Location.html">Location</a>
+        </div>
+        <div class="footer-col">
+          <h4>Order</h4>
+          <a href="Location.html">Collect online</a>
+          <a href="Location.html">Opening hours</a>
+          <a href="https://deliveroo.co.uk/menu/bristol/eastville/yaab-burgers-5-7-clay-hill/?utm_medium=affiliate&utm_source=google_maps_link&fulfillment_type=COLLECTION" target="_blank" rel="noopener">Deliveroo</a>
+          <a href="https://www.ubereats.com/gb/store/yaab/mxTNR-ZLSOeLQuIZtESKdQ?diningMode=PICKUP&utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnEwoutUZZnMzosKryodHKRWGEbKUu2Q6-X7ZblSontkWGeiuDJ2eMSc9OHqrimuxCoRDZGGLZZ1-SNweoCGPaZzyYLULw%3D%3D" target="_blank" rel="noopener">Uber Eats</a>
+          <a href="https://www.instagram.com/yaabburgers/" target="_blank" rel="noopener"><img src="assets/logo-instagram.png" alt="Instagram — @yaabburgers" style="width:28px;height:28px;object-fit:contain;vertical-align:middle;border-radius:6px;" /></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Yaab Berbere Burgers. All rights reserved.</span>
+      <span>Made with bold spice.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/yaab.js"></script>
+
+<!-- LIGHTBOX -->
+<div class="lb-overlay" id="lb" role="dialog" aria-modal="true" aria-label="Food image">
+  <button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
+  <img class="lb-img" id="lbImg" alt="" />
+</div>
+
+<style>
+.lb-overlay{
+  display:none; position:fixed; inset:0; z-index:9999;
+  background:rgba(0,0,0,0.92); align-items:center; justify-content:center;
+  cursor:zoom-out;
+}
+.lb-overlay.open{ display:flex; }
+.lb-img{
+  max-width:90vw; max-height:88vh; object-fit:contain;
+  border-radius:8px; box-shadow:0 8px 48px rgba(0,0,0,0.6);
+  animation: lbIn 0.22s ease;
+}
+@keyframes lbIn{
+  from{ opacity:0; transform:scale(0.93); }
+  to{ opacity:1; transform:scale(1); }
+}
+.lb-close{
+  position:fixed; top:20px; right:24px; background:none; border:none;
+  color:#fff; font-size:2.4rem; line-height:1; cursor:pointer;
+  opacity:0.8; z-index:10000; padding:8px;
+}
+.lb-close:hover{ opacity:1; }
+.dish-media img{ cursor:zoom-in; }
+</style>
+
+<script>
+(function(){
+  var lb = document.getElementById('lb');
+  var lbImg = document.getElementById('lbImg');
+  var lbClose = document.getElementById('lbClose');
+
+  // attach to all dish images
+  document.querySelectorAll('.dish-media img').forEach(function(img){
+    img.addEventListener('click', function(e){
+      e.stopPropagation();
+      lbImg.src = img.src;
+      lbImg.alt = img.alt;
+      lb.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    });
+  });
+
+  function closeLb(){
+    lb.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  lbClose.addEventListener('click', closeLb);
+  lb.addEventListener('click', function(e){
+    if(e.target !== lbImg){ closeLb(); }
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){ closeLb(); }
+  });
+})();
+</script>
+</html>

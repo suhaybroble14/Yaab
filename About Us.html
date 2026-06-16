@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" class="subpage">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>About Us — Yaab Berbere Burgers</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/yaab.css" />
+</head>
+<body>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav solid" id="nav">
+  <div class="container">
+    <a class="nav-brand" href="Yaab Berbere Burgers.html" aria-label="Yaab — home">
+      <img src="assets/logo-full.png" alt="Yaab" />
+    </a>
+    <nav class="nav-links right">
+      <a class="nav-link" href="Menu.html">Menu</a>
+      <a class="nav-link active" href="About Us.html">About</a>
+      <a class="nav-link" href="Location.html">Location</a>
+      <a class="btn btn-primary nav-cta" href="Location.html">Contact</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===================== MOBILE MENU ===================== -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="close" id="closeMenu" aria-label="Close menu">&times;</button>
+  <img class="mm-logo" src="assets/logo-full.png" alt="Yaab" />
+  <a href="Yaab Berbere Burgers.html" data-mm>Home</a>
+  <a href="Menu.html" data-mm>Menu</a>
+  <a href="About Us.html" data-mm>About</a>
+  <a href="Location.html" data-mm>Location</a>
+  <a href="Location.html" data-mm>Contact</a>
+</div>
+
+<main>
+<!-- ===================== ABOUT ===================== -->
+<section class="section about" id="about" data-screen-label="About">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-copy">
+        <span class="eyebrow reveal">About Yaab</span>
+        <h2 class="section-title reveal" data-delay="1">Where it all<br /><em>began</em></h2>
+        <p class="reveal" data-delay="2"><strong style="font-weight:700;font-size:18px;">Growing up, Berbere was always a staple in our pantry.</strong> We used it in traditional dishes and even made pastes from it to enjoy as a chilli alongside our meals. Long before Yaab was even an idea, we started adding Berbere to the chicken burgers we made at home. It quickly became a favourite in our household.</p>
+        <p class="about-born reveal" data-delay="2">A few years later, Yaab was born.</p>
+        <p class="about-quote reveal" data-delay="3">We wanted to share with the world the same experience we had when we first tasted our Berbere burger. Inspired by the bold flavours of Nashville hot chicken, we created our own East African take on it using Berbere — a spice blend that has been part of our culture and kitchens for generations, known for its rich, smoky depth of flavour and warming heat.</p>
+        <p class="reveal" data-delay="3">The result is a burger that combines the fiery excitement of Nashville-style chicken with the aromatic complexity and distinctive character of East African spices. That's exactly what we set out to share: a unique flavour experience that brings people together over great food.</p>
+      </div>
+      <div class="about-media reveal" data-delay="2">
+        <div class="about-logo-block">
+          <img src="assets/logo-full.png" alt="Yaab Berbere Burgers" style="filter:brightness(0) invert(1); opacity:0.2; pointer-events:none;" />
+          <p class="about-cta-text">Order online or message us to collect.</p>
+          <div class="about-cta-row">
+            <a href="https://www.ubereats.com/gb/store/yaab/mxTNR-ZLSOeLQuIZtESKdQ?diningMode=PICKUP" target="_blank" rel="noopener" class="about-cta-btn about-cta-ue">
+              <img src="assets/logo-ubereats.png" alt="Uber Eats" style="width:22px;height:22px;object-fit:contain;flex-shrink:0;" />
+              Uber Eats
+            </a>
+            <a href="https://deliveroo.co.uk/menu/bristol/eastville/yaab-burgers-5-7-clay-hill/?utm_medium=affiliate&amp;utm_source=google_maps_link&amp;fulfillment_type=COLLECTION" target="_blank" rel="noopener" class="about-cta-btn about-cta-dr">
+              <img src="assets/logo-deliveroo.png" alt="Deliveroo" style="width:22px;height:22px;object-fit:contain;flex-shrink:0;" />
+              Deliveroo
+            </a>
+          </div>
+          <a href="https://wa.me/447934920616" target="_blank" rel="noopener" class="about-cta-btn about-cta-wa">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="white" style="flex-shrink:0;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Message to Collect
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="assets/logo-full.png" alt="Yaab Berbere Burgers" />
+        <p>Authentic East African flavours, crafted into premium burgers.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <a href="Yaab Berbere Burgers.html">Home</a>
+          <a href="Menu.html">Menu</a>
+          <a href="About Us.html">About Us</a>
+          <a href="Location.html">Location</a>
+        </div>
+        <div class="footer-col">
+          <h4>Order</h4>
+          <a href="Location.html">Collect online</a>
+          <a href="Location.html">Opening hours</a>
+          <a href="https://deliveroo.co.uk/menu/bristol/eastville/yaab-burgers-5-7-clay-hill/?utm_medium=affiliate&utm_source=google_maps_link&fulfillment_type=COLLECTION" target="_blank" rel="noopener">Deliveroo</a>
+          <a href="https://www.ubereats.com/gb/store/yaab/mxTNR-ZLSOeLQuIZtESKdQ?diningMode=PICKUP&utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnEwoutUZZnMzosKryodHKRWGEbKUu2Q6-X7ZblSontkWGeiuDJ2eMSc9OHqrimuxCoRDZGGLZZ1-SNweoCGPaZzyYLULw%3D%3D" target="_blank" rel="noopener">Uber Eats</a>
+          <a href="https://www.instagram.com/yaabburgers/" target="_blank" rel="noopener"><img src="assets/logo-instagram.png" alt="Instagram — @yaabburgers" style="width:28px;height:28px;object-fit:contain;vertical-align:middle;border-radius:6px;" /></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Yaab Berbere Burgers. All rights reserved.</span>
+      <span>Made with bold spice.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/yaab.js"></script>
+</body>
+</html>
