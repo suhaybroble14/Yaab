@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Yaab — Berbere Burgers</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/yaab.css" />
+</head>
+<body>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <div class="container">
+    <a class="nav-brand" href="index.html" aria-label="Yaab — home">
+      <img src="assets/logo-full.png" alt="Yaab" />
+    </a>
+    <nav class="nav-links right">
+      <a class="nav-link active" href="index.html">Home</a>
+      <a class="nav-link" href="Menu.html">Menu</a>
+      <a class="nav-link" href="About Us.html">About</a>
+      <a class="nav-link" href="Location.html">Location</a>
+      <a class="btn btn-primary nav-cta" href="Location.html">Contact</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===================== MOBILE MENU ===================== -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="close" id="closeMenu" aria-label="Close menu">&times;</button>
+  <img class="mm-logo" src="assets/logo-full.png" alt="Yaab" />
+  <a href="index.html" data-mm>Home</a>
+  <a href="Menu.html" data-mm>Menu</a>
+  <a href="About Us.html" data-mm>About</a>
+  <a href="Location.html" data-mm>Location</a>
+  <a href="Location.html" data-mm>Contact</a>
+</div>
+
+<main>
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="home" data-screen-label="Hero">
+  <div class="hero-bg"><img src="assets/hero-new.png" alt="Yaab berbere loaded fries, chicken tenders, burger, slaw and pickles spread on burnt orange background" /></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-halal">
+    <img src="assets/halal-sign.png" alt="100% Halal Guaranteed" />
+  </div>
+  <div class="container">
+    <div class="hero-copy">
+      <span class="hero-label reveal">Yaab <span class="dot"></span> Bristol</span>
+      <h1 class="hero-title hero-title-landed reveal" data-delay="1"><span class="h-orange">Berbere</span> Chicken<br />Has Landed!</h1>
+      <p class="hero-tagline reveal" data-delay="2">Bold spice. Big crunch. Serious flavour.</p>
+      <p class="hero-sub reveal" data-delay="2">Yaab serves crispy chicken coated in our homemade Berbere glaze, bringing you flavours like you've never had before. Fresh, hot, saucy, and made to satisfy.</p>
+      <span class="hero-divider reveal" data-delay="2" aria-hidden="true"></span>
+      <p class="hero-sub-mobile reveal" data-delay="2">Yaab serves crispy chicken coated in our homemade Berbere glaze, bringing you flavours like you've never had before. Fresh, hot, saucy, and made to satisfy.</p>
+      <div class="hero-actions reveal" data-delay="3">
+        <a class="btn btn-primary" href="Menu.html">View Menu <span class="arrow">→</span></a>
+        <a class="btn btn-ghost" href="Location.html">Find Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<script src="assets/yaab.js"></script>
+</body>
+</html>
